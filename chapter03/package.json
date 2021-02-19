@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
-    "test:chrome": "cypress run –browser chrome",
-    "test:firefox": "cypress run –browser firefox"
+    "cypress:run": "cypress run --env TransferProtocol=http",
+    "cypress:run:v2": "cypress run --env TransferProtocol=https",
+    "cypress:electron:headed": "cypress run --env TransferProtocol=http --headed"
   },
   "keywords": [],
   "author": "",
