@@ -3,3 +3,5 @@
 /chapter04/node_modules/*
 /chapter05/node_modules/*
 /todo/node_modules/*
+/tdd-app/node_modules/*
+/chapter07/node_modules/*
